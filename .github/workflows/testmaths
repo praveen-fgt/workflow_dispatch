@@ -9,8 +9,10 @@ on:
   workflow_dispatch:
     inputs:
       int_1:
+        description: provide first int
         required: true
       int_2:
+        description: provide second int
         required: true
 env:
   myIntegerNumber: ${{ 12 }}
