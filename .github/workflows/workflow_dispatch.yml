@@ -1,4 +1,4 @@
-Name: Create VM
+Name: Create_VM
 
 on:
   workflow_dispatch:
